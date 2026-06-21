@@ -52,8 +52,7 @@ jobs:
 
           path = Path(os.environ["RUNNER_TEMP"]) / "clawhub-config.json"
           path.write_text(
-              json.dumps({"registry": "https://clawhub.ai", "token": os.environ["CLAWHUB_TOKEN"]}, indent=2) + "
-",
+              json.dumps({"registry": "https://clawhub.ai", "token": os.environ["CLAWHUB_TOKEN"]}, indent=2),
               encoding="utf-8",
           )
           PY
