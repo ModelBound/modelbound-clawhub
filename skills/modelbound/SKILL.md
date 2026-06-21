@@ -1,5 +1,5 @@
 ---
-name: modelbound
+name: ModelBound
 description: Pull team skills, rules, and knowledge from ModelBound's hosted MCP server. Use whenever the user references their ModelBound team, asks to sync skills/rules, search team knowledge, or propose edits to a team-managed `SKILL.md` / `AGENTS.md` / `CLAUDE.md`.
 ---
 
